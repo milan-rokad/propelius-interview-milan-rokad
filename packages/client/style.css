@@ -1,0 +1,16 @@
+.filter-container {
+  margin: 10px;
+}
+
+.individual-filter-container {
+  display: flex;
+}
+
+.filter-field {
+  margin-left: 1rem;
+  min-width: 7rem;
+}
+
+.filter-field select {
+  width: 100%;
+}

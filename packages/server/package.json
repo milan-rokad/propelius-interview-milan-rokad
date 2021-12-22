@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules index.js",
+    "make-borrowers": "node ./scripts/makeBorrowersFile"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^5.5.3",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7"
+  }
+}
